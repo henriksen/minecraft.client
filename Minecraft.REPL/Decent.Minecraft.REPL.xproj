@@ -7,8 +7,8 @@
 
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>51d9f069-0699-43d3-8aa3-f7538d3b3f20</ProjectGuid>
-    <RootNamespace>Minecraft.Scratch</RootNamespace>
+    <ProjectGuid>5cf82784-331f-435f-8ed0-7b2d5bcba307</ProjectGuid>
+    <RootNamespace>Minecraft.REPL</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>

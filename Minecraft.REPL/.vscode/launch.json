@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}\\bin\\Debug\\netcoreapp1.0\\Minecraft.Scratch.dll",
+            "program": "${workspaceRoot}\\bin\\Debug\\netcoreapp1.0\\Minecraft.REPL.dll",
             "args": ["localhost"],
             "cwd": "${workspaceRoot}",
             "externalConsole": false,
