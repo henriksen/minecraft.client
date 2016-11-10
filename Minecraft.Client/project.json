@@ -1,5 +1,8 @@
 {
   "description": "A client library for Minecraft (the original Java version).",
+    "buildOptions": {
+    "debugType": "portable"
+  },
   "packOptions": {
     "summary": "A client library for the original version of Minecraft. It requires Forge and the Raspberry Jam mod on the Minecraft side.",
     "owners": [ "Bertrand Le Roy" ],
