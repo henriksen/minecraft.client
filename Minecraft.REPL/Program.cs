@@ -19,19 +19,26 @@ namespace Minecraft.REPL
     {
         public static void Main(string[] args)
         {
+            var runner = new ScriptRunner();
 
-                var script = @"
-                world.PostToChat(""Hello from C# and .NET Core via Roslyn!"");
-                var playerPosition = world.Player.GetPosition();
-                world.PostToChat($""Player is at {playerPosition}"");
-                var blockUnderPlayer = world.GetBlock(playerPosition - new Vector3(0, 1, 0));
-                world.PostToChat($""Block under player is {blockUnderPlayer.Type}."");
-                var wood = new Wood(Wood.Species.Oak, Orientation.UpDown);
-                world.SetBlock(wood, playerPosition + new Vector3(0, 0, 1));
-                ";
+            if (string.IsNullOrEmpty(args[0])) {
+                Console.WriteLine("You need a script file as an argument");
+                return;
+            }
 
-                var runner = new ScriptRunner();
-                runner.Run(script);
+            string script;
+            try
+            {
+                script = File.ReadAllText(args[0]);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Unable to read file. {e.Message}");
+                return;
+            }
+
+            runner.Run(script);
+
         }
     }
 }

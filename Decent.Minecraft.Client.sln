@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Decent.Minecraft.REPL", "Minecraft.REPL\Decent.Minecraft.REPL.xproj", "{5CF82784-331F-435F-8ED0-7B2D5BCBA307}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,10 @@ Global
 		{ABA3035B-2E87-4C5B-ABF8-EF77958FF316}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABA3035B-2E87-4C5B-ABF8-EF77958FF316}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABA3035B-2E87-4C5B-ABF8-EF77958FF316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF82784-331F-435F-8ED0-7B2D5BCBA307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF82784-331F-435F-8ED0-7B2D5BCBA307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF82784-331F-435F-8ED0-7B2D5BCBA307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF82784-331F-435F-8ED0-7B2D5BCBA307}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
